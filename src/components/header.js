@@ -11,7 +11,7 @@ const Header = ({item}) => (
     {/* Name */}
     <div
       style={{
-        padding: '0.1rem 1rem',
+        padding: '1rem 1rem 0 1rem',
       }}
     >
       <h1 style={{ margin: 0 }}>
