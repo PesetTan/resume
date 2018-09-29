@@ -2,12 +2,7 @@
 import React from 'react'
 
 const Header = ({item}) => (
-  <div
-    style={{
-      background: 'rgb(50,50,100)',
-      marginBottom: '1.45rem',
-    }}
-  >
+  <div>
     {/* Name */}
     <div
       style={{
@@ -18,7 +13,7 @@ const Header = ({item}) => (
         <div
           // to={data.link}
           style={{
-            color: 'white',
+            color: 'cyan',
             textDecoration: 'none',
           }}
         >

@@ -12,7 +12,11 @@ const Skills = ({item}) => {
             <h4>{item.type}</h4>
             {item.items.map((skill) => {
                 return (
-                    <div style={{display: 'flex', justifyContent:'space-between'}}key={skill.name}>
+                    <div style={{
+                            display: 'flex', 
+                            justifyContent:'space-between', 
+                            padding:'0.4rem'
+                        }}key={skill.name}>
                         <span style={{width:'100px'}}>{skill.name}</span>
                         <div style={{width:'100px'}}><Rank value={skill.value} /></div>
                     </div>
