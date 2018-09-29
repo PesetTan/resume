@@ -2,18 +2,15 @@
 import React from 'react'
 
 const Header = ({item}) => (
-  <div>
+  <div style={{ backgroundColor: 'rgb(50,50,100)' }}>
     {/* Name */}
     <div
-      style={{
-        padding: '1rem 1rem 0 1rem',
-      }}
+      style={{ padding: '1rem 1rem 0 1rem' }}
     >
       <h1 style={{ margin: 0 }}>
         <div
-          // to={data.link}
           style={{
-            color: 'cyan',
+            color: 'white',
             textDecoration: 'none',
           }}
         >

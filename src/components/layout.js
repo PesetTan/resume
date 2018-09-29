@@ -32,11 +32,11 @@ const Layout = ({ children }) => (
         <div style={{
           display: 'flex'
         }}>
-          <div style={{margin:'0 1rem'}}>
+          <div style={{padding:'1rem'}}>
             <Experience items={data.experience}/>
             <Education items={data.education} />
           </div>
-          <div style={{ background:'rgb(230,230,230)', margin:'1rem'}}>
+          <div style={{ background:'rgb(230,230,230)', padding:'1rem'}}>
             <Personal item={data.personal} />
             <Skills item={data.skills[0]} />
             <Skills item={data.skills[1]} />
