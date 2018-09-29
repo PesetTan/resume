@@ -12,6 +12,7 @@ import Education from './education';
 import Personal from './personal';
 import Skills from './skills';
 import Footer from './footer';
+import Github from './github';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -41,6 +42,7 @@ const Layout = ({ children }) => (
             <Personal item={data.personal} />
             <Skills item={data.skills[0]} />
             <Skills item={data.skills[1]} />
+            <Github />
           </div>
         </div>
         <Footer />
