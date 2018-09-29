@@ -29,15 +29,16 @@ const data = {
                 // {name: 'MS Office', value: 5},
                 {name: 'ASP.net', value: 2},
                 {name: 'GIT', value: 3},
+                {name: 'MS TFS', value: 3},
                 {name: 'MS SQL DB', value: 3},
                 {name: 'MySQL DB', value: 3},
                 {name: 'Oracle DB', value: 3},
                 {name: 'Visual Studio', value: 3},
-                {name: 'Angular', value: 4},
+                {name: 'VS Code', value: 4},
                 {name: 'D3.js', value: 4},
                 {name: 'Node.js', value: 2},
-                {name: 'VS Code', value: 4},
-                {name: 'MS TFS', value: 3},
+                {name: 'Angular', value: 4},
+                {name: 'React.js', value: 1}
             ],
         }
     ],
@@ -46,23 +47,24 @@ const data = {
             company: 'Omnicell',
             location: 'Mountain View, CA',
             date: '2018 - Present',
-            title: 'Software Developer',
+            title: 'Software Engineer',
             bullets: [
                 `
                 Frontend developer for an enterprise-level application. 
                 This application uses Angular and allows users to operate/administer the 
                 hospital-grade medication dispensary. Key activities include; implementing UI 
-                design requirements to the pixel, constructing UI componennts.
-                `,
-                `
-                Foster partnerships with product managers and technical program managers 
-                to execute project plans, while following the team’s mature agile process.
+                design requirements to the pixel and constructing UI componennts.
                 `,
                 `Backend developer for the enterprise-level application. Cultivate 
                 partnerships with backend team: built a connection from database to frontend 
                 using ASP.net, developed micro-service to allow user to log click events from 
                 the front end, developed and publish new requirements.
+                `,
                 `
+                Foster partnerships with product managers and technical program managers 
+                to execute project plans, while following the team’s mature agile process.
+                `,
+
             ]
         },
         {
