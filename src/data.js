@@ -1,50 +1,58 @@
 const data = {
-    name: 'Sam (Peset) Tan',
-    title: 'Software Engineer',
-    link: 'https://github.com/PesetTan/resume',
-    contact: {
-        address: '4558 Lodovico CT.',
-        city: 'Fremont',
-        state: 'CA',
-        zipcode: '94555',
-        cell: '510-862-8179',
-        email: 'pesettan@gmail.com'
+    personal: {
+        name: 'Sam (Peset) Tan',
+        title: 'Software Engineer',
+        github: 'https://github.com/PesetTan/resume',
+        contact: {
+            address: '4558 Lodovico CT.',
+            city: 'Fremont',
+            state: 'CA',
+            zipcode: '94555',
+            cell: '510-862-8179',
+            email: 'pesettan@gmail.com'
+        },
     },
-    languages: [ 
-        'C#',
-        'Javascript',
-        'Typescript',
-        'Swift',
-        'SQL',
-        'VBS'
-    ],
-    software: [
-        'MS Office',
-        'ASP.net',
-        'GIT',
-        'MS SQL DB',
-        'MySQL DB',
-        'Oracle DB',
-        'Visual Studio',
-        'XCode',
-        'Angular',
-        'D3.js',
-        'Node.js',
-        'VS Code',
-        'MS TFS'
+    skills: [
+        {
+            type: 'Languages',
+            items: [ 
+                {name: 'C#', value: 4},
+                {name: 'Javascript', value: 3},
+                {name: 'Typescript', value: 4},
+                {name: 'SQL', value: 3},
+                {name: 'VBS', value: 5}
+            ],
+        },
+        {
+            type: 'Software',
+            items: [
+                // {name: 'MS Office', value: 5},
+                {name: 'ASP.net', value: 2},
+                {name: 'GIT', value: 3},
+                {name: 'MS SQL DB', value: 3},
+                {name: 'MySQL DB', value: 3},
+                {name: 'Oracle DB', value: 3},
+                {name: 'Visual Studio', value: 3},
+                {name: 'Angular', value: 4},
+                {name: 'D3.js', value: 4},
+                {name: 'Node.js', value: 2},
+                {name: 'VS Code', value: 4},
+                {name: 'MS TFS', value: 3},
+            ],
+        }
     ],
     experience: [
         {
             company: 'Omnicell',
             location: 'Mountain View, CA',
-            date: 'Mar 2018 - Present',
+            date: '2018 - Present',
             title: 'Software Developer',
             bullets: [
                 `
                 Frontend developer for an enterprise-level application. 
                 This application uses Angular and allows users to operate/administer the 
-                hospital-grade medication despiser. Key activities include; implementing UI 
-                design requirements to the pixel.
+                hospital-grade medication dispensary. Key activities include; implementing UI 
+                design requirements to the pixel, constructing UI componennts.
                 `,
                 `
                 Foster partnerships with product managers and technical program managers 
@@ -60,7 +68,7 @@ const data = {
         {
             company: 'ATAC',
             location: 'Santa Clara, CA',
-            date: 'Aug 2015 - Mar 2018',
+            date: '2015 - 2018',
             title: 'Web Application Developer',
             bullets: [
                 `
@@ -80,7 +88,7 @@ const data = {
         {
             company: 'ATAC',
             location: 'Santa Clara, CA',
-            date: 'Aug 2007 - Aug 2015',
+            date: '2007 - 2015',
             title: 'Aviation Data Analyst',
             bullets: [
                 `

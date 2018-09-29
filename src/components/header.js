@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'gatsby'
 
-const Header = ({ name, title, link }) => (
+import React from 'react'
+
+const Header = ({item}) => (
   <div
     style={{
       background: 'rgb(50,50,100)',
@@ -11,35 +11,32 @@ const Header = ({ name, title, link }) => (
     {/* Name */}
     <div
       style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        padding: '0.1rem 1rem',
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <Link
-          to={link}
+        <div
+          // to={data.link}
           style={{
             color: 'white',
             textDecoration: 'none',
           }}
         >
-          {name}
-        </Link>
+          {item.name}
+        </div>
       </h1>
     </div>
 
     {/* Title */}
     <div
       style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        padding: '0.1rem 1rem',
+        color: 'lightgrey',
       }}
     >
-      <h1 style={{ margin: 0 }}>
-          {title}
-      </h1>
+      <h3>
+          {item.title}
+      </h3>
     </div>
   </div>
 )
