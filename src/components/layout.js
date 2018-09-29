@@ -11,6 +11,7 @@ import Experience from './experience';
 import Education from './education';
 import Personal from './personal';
 import Skills from './skills';
+import Footer from './footer';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -42,6 +43,7 @@ const Layout = ({ children }) => (
             <Skills item={data.skills[1]} />
           </div>
         </div>
+        <Footer />
       </>
     )}
   />

@@ -22,7 +22,7 @@ const Header = ({item}) => (
     {/* Title */}
     <div
       style={{
-        padding: '0.1rem 1rem',
+        padding: '0.3rem 1rem',
         color: 'lightgrey',
       }}
     >
