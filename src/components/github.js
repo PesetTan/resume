@@ -1,5 +1,4 @@
 import React from 'react'
-import Rank from './rank';
 
 const Github = ({item}) => {
     return (

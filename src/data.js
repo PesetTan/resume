@@ -46,7 +46,7 @@ const data = {
         {
             company: 'Omnicell',
             location: 'Mountain View, CA',
-            date: '2018 - Present',
+            date: '2018 - Now',
             title: 'Software Engineer',
             bullets: [
                 `
