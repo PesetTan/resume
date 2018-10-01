@@ -115,7 +115,7 @@ const data = {
         },
         {
             degree: 'Bachelors, Electrical Engineering',
-            school: 'San Jose State Univerisity',
+            school: 'San Jose State University',
             address: 'San Jose, CA'
         }
     ]

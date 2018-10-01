@@ -2,7 +2,7 @@
 import React from 'react'
 
 const Header = ({item}) => (
-  <div style={{ backgroundColor: 'rgb(50,50,100)' }}>
+  <div style={{ backgroundColor: 'rgb(50,50,120)' }}>
     {/* Name */}
     <div
       style={{ padding: '1rem 1rem 0 1rem' }}
@@ -23,10 +23,9 @@ const Header = ({item}) => (
     <div
       style={{
         padding: '0.3rem 1rem',
-        color: 'lightgrey',
       }}
     >
-      <h3>
+      <h3 style={{color: 'lightgrey',}}>
           {item.title}
       </h3>
     </div>

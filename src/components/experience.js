@@ -15,8 +15,9 @@ const Experience = ({items}) => {
                         <div style={{fontWeight:'bold'}}>{exp.title}</div>
                         <div>{exp.company}, {exp.location}</div>
                         <ul>
-                        {exp.bullets.map(bullet => {
-                            return (<li>{bullet}</li>)
+                        
+                        {exp.bullets.map((bullet, index) => {
+                            return (<li key={index}>{bullet}</li>)
                         })}
                         </ul>
                     </div>
