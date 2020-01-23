@@ -16,7 +16,7 @@ const data = {
         {
             type: 'Languages',
             items: [ 
-                {name: 'C#', value: 4},
+                {name: 'C#', value: 5},
                 {name: 'Javascript', value: 3},
                 {name: 'Typescript', value: 4},
                 {name: 'SQL', value: 3},
@@ -47,18 +47,22 @@ const data = {
             company: 'Omnicell',
             location: 'Mountain View, CA',
             date: '2018 - Now',
-            title: 'Software Engineer',
+            title: 'Software Engineer III',
             bullets: [
                 `
                 Frontend developer for an enterprise-level application. 
                 This application uses Angular and allows users to operate/administer the 
                 hospital-grade medication dispensary. Key activities include; implementing UI 
-                design requirements to the pixel and constructing UI componennts.
+                design requirements to the pixel and constructing UI components.
                 `,
                 `Backend developer for the enterprise-level application. Cultivate 
-                partnerships with backend team: built a connection from database to frontend 
-                using ASP.net, developed micro-service to allow user to log click events from 
-                the front end, developed and publish new requirements.
+                partnerships with backend team, built a connection from database to frontend 
+                using ASP.net, developed new micro-services, developed and publish new requirements,
+                managed database requirements, handled communications between legacy and current system
+                with queuing system
+                `,
+                `Worked with architects to implement new patterns in code and update and evolve
+                the common library used by all services.
                 `,
                 `
                 Foster partnerships with product managers and technical program managers 
@@ -71,19 +75,13 @@ const data = {
             company: 'ATAC',
             location: 'Santa Clara, CA',
             date: '2015 - 2018',
-            title: 'Web Application Developer',
+            title: 'Web Application Developer / Senior Data Analyst',
             bullets: [
                 `
                 Frontend developer for ongoing research-level Angular-application for NASA, 
-                illustrated knowledge in interface design and large data mining proficiency. 
-                The application compared different data sets using interactive charts, diagrams 
-                and animated ground traffic using the D3.js API.        
-                `,
-                `
-                Lead frontend developer for Angular-application at an International 
-                Airport, demonstrated knowledge in interface design and large data mining 
-                proficiency. The application animated flights across airspace using D3.js 
-                over the Google Maps.
+                illustrated knowledge in interface design and proficiency in handling large
+                data sets. The application compared different data sets using interactive charts, 
+                diagrams and animated ground traffic using the D3.js API.        
                 `
             ]
         },
@@ -91,7 +89,7 @@ const data = {
             company: 'ATAC',
             location: 'Santa Clara, CA',
             date: '2007 - 2015',
-            title: 'Aviation Data Analyst',
+            title: 'Senior Data Analyst',
             bullets: [
                 `
                 Primary developer for various desktop applications that filters large 
