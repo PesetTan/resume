@@ -19,21 +19,21 @@ const data = {
                 {name: 'C#', value: 5},
                 {name: 'Javascript', value: 3},
                 {name: 'Typescript', value: 4},
-                {name: 'SQL', value: 3},
-                {name: 'VBS', value: 5}
+                {name: 'SQL', value: 4},
+                {name: 'VBS', value: 3}
             ],
         },
         {
             type: 'Software',
             items: [
                 // {name: 'MS Office', value: 5},
-                {name: 'ASP.net', value: 2},
-                {name: 'GIT', value: 3},
-                {name: 'MS TFS', value: 3},
-                {name: 'MS SQL DB', value: 3},
+                {name: 'ASP.net', value: 5},
+                {name: 'GIT', value: 4},
+                {name: 'MS TFS', value: 4},
+                {name: 'MS SQL DB', value: 4},
                 {name: 'MySQL DB', value: 3},
                 {name: 'Oracle DB', value: 3},
-                {name: 'Visual Studio', value: 3},
+                {name: 'Visual Studio', value: 4},
                 {name: 'VS Code', value: 4},
                 {name: 'D3.js', value: 4},
                 {name: 'Node.js', value: 2},
@@ -51,18 +51,24 @@ const data = {
             bullets: [
                 `
                 Frontend developer for an enterprise-level application. 
-                This application uses Angular and allows users to operate/administer the 
-                hospital-grade medication dispensary. Key activities include; implementing UI 
-                design requirements to the pixel and constructing UI components.
+                Used Angular and RXJS to allow users to operate the hospital-grade medication 
+                dispensary. Key activities include; implementing UI design requirements to the 
+                pixel and constructing UI components.
                 `,
-                `Backend developer for the enterprise-level application. Cultivate 
-                partnerships with backend team, built a connection from database to frontend 
-                using ASP.net, developed new micro-services, developed and publish new requirements,
-                managed database requirements, handled communications between legacy and current system
+                `
+                Backend developer for the enterprise-level application. 
+                Built a connection from database to ASP.net RESTful API, created 
+                new micro-services for the system, developed and publish new requirements, managed 
+                database requirements, handled communications between legacy and current system 
                 with queuing system
                 `,
-                `Worked with architects to implement new patterns in code and update and evolve
-                the common library used by all services.
+                `
+                Worked with architects to implement new patterns in code and update and evolve
+                the common library used by all micro-services.
+                `,
+                `
+                Troubleshoot production systems on customer sites, assessed problems, found
+                root causes and developed solutions.
                 `,
                 `
                 Foster partnerships with product managers and technical program managers 
@@ -89,17 +95,17 @@ const data = {
             company: 'ATAC',
             location: 'Santa Clara, CA',
             date: '2007 - 2015',
-            title: 'Senior Data Analyst',
+            title: 'Data Analyst',
             bullets: [
                 `
-                Primary developer for various desktop applications that filters large 
+                Primary developer for desktop applications that filters large 
                 amounts of flight radar, greatly increasing workflow among colleagues and 
-                government clients. The program mines data with an interface that is easy 
+                government clients. The program filters and aggregates data with an interface that is easy 
                 to comprehend and manipulate. 
                 `,
                 `
                 Database administrator for multiple NASA projects using MySQL. The 
-                database integrated Sherlock data and multiple FAA data sources into an 
+                database integrated flight data and multiple FAA data sources into an 
                 accessible format that is easy to consolidate into different aggregations.
                 `
             ]
