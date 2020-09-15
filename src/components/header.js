@@ -2,7 +2,8 @@
 import React from 'react'
 
 const Header = ({item}) => (
-  <div style={{ backgroundColor: 'rgb(50,50,120)' }}>
+  // <div style={{ backgroundColor: 'rgb(50,50,120)' }}>
+  <div style={{ backgroundImage: 'linear-gradient(45deg, rgb(0,80,200), rgb(100,0,255))' }}>
     {/* Name */}
     <div
       style={{ padding: '1rem 1rem 0 1rem' }}

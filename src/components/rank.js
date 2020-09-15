@@ -11,10 +11,10 @@ const Rank = ({value}) => {
                 style={{
                     height:'1rem',
                     width:'1rem',
-                    backgroundColor:(i > value) ? 'lightgrey' : 'rgb(50,50,120)',
+                    backgroundColor:(i > value) ? 'lightgrey' : 'rgb(100,0,255)',
                     borderRadius:'50%',
                     display: 'inline-block',
-                    border:(i > value) ? 'lightgrey' : 'rgb(50,50,120)',
+                    border:(i > value) ? 'lightgrey' : 'rgb(100,0,255)',
                     borderStyle:'solid',
                     margin: '0 0.05rem'
             }}></span>
