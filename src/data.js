@@ -50,6 +50,14 @@ const data = {
             title: 'Software Engineer III',
             bullets: [
                 `
+                Implemented Active-Directory Sync feature, easing account management of hospital workers. 
+                In effect, this allows an account manager to manage authentication on just the LDAP server.
+                `,
+                `
+                Major player in migration and rewrite of library code and services from .Net Framework to .Net Core. 
+                This allows the use of smaller containers for each service reducing cloud storage costs.
+                `,
+                `
                 Frontend developer for an enterprise-level application. 
                 Used Angular and RXJS to allow users to operate the hospital-grade medication 
                 dispensary. Key activities include; implementing UI design requirements to the 
@@ -69,10 +77,6 @@ const data = {
                 `
                 Troubleshoot production systems on customer sites, assessed problems, found
                 root causes and developed solutions.
-                `,
-                `
-                Foster partnerships with product managers and technical program managers 
-                to execute project plans, while following the team’s mature agile process.
                 `,
 
             ]
