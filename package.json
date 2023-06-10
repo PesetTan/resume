@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Peset Sam Tan <pesettan@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.24.58",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.3.10",
